@@ -4,10 +4,11 @@
 
 #SHORTCUT command slash next to shift button to comment
 #Shortcut command z uncomment
-#add Jupyter notebook to this folder. This will be the main script to run for analysis.
-#not complete yet
-#You must submit a link to your Github/Git Lab repo that contains your Jupyter Notebook.
-#You must include a written description of at least two observable trends based on the data.
+#add Jupyter notebook to this folder. This will be the main script to run for analysis. #complete
+
+#You must submit a link to your Github/Git Lab repo that contains your Jupyter Notebook. ###NOT COMPLETE
+
+#You must include a written description of at least two observable trends based on the data. ###NOT COMPLETE 
 #Push the above changes to github
 
 #Start with: 
@@ -26,7 +27,7 @@
 #this is for loop is going through each row in the CSV and its trying to match each row
 #to the value that is assigned to the video variable. The user input is the video variable.
 #It's going to check whether or not the first element of that row, one element, it is comma seperated (comma delimited)
-#the first element, does it match tht e input from user, if it is then print out some stuff, it is not then keep going 
+#the first element, does it match the input from user, if it is then print out some stuff, it is not then keep going 
 # and if it isn't found then print out the statement ("sorry about this ")
     
     #for row in csvreader:
@@ -214,6 +215,7 @@
     #we are assigning thousands_of_dollars to that column to the data_file_df data frame
 
     #thousands_of_dollars = data_file_df["Amount"]/1000
+
     #data_file_df["Thousands of Dollars"] = thousands_of_dollars
 
     #data_file_df.head()
